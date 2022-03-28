@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5fb08060-cede-4b14-9f82-8736cea216d9"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="Auto_Tabsquare_Rest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="2411558c-6bba-46b7-97df-c24523e5ef8e">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="38c35793-065a-474e-9755-566ce7a55b6c"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="f2264d65-741f-49b9-9612-057a1f81e0dc"
+	name="Auto_Tabsquare_RestRepository"
+	relativepath="Auto_Tabsquare_RestRepository.rxrep">
+		<codegen
+		classname="Auto_Tabsquare_RestRepository"
+		namespace="Auto_Tabsquare_Rest">
+		</codegen>
+		<rootfolder
+		id="f9e42f1e-cc0a-43dd-8ec1-0e4e1f217b0d"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

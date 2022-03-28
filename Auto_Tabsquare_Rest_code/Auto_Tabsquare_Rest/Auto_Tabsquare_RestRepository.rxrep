@@ -1,0 +1,248 @@
+﻿<repository
+id="f2264d65-741f-49b9-9612-057a1f81e0dc"
+name="Auto_Tabsquare_RestRepository">
+	<codegen
+	classname="Auto_Tabsquare_RestRepository"
+	namespace="Auto_Tabsquare_Rest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="f9e42f1e-cc0a-43dd-8ec1-0e4e1f217b0d"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="38c35793-065a-474e-9755-566ce7a55b6c"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<folder
+			capname="unknown"
+			id="58660ed7-d03c-4fe5-88b5-54d9b150fe77"
+			isrooted="False"
+			name="LoginPage"
+			searchtimeout="0ms">
+				<item
+				capname="webelement"
+				id="6496a024-05a1-4d83-bcde-5da57d434876"
+				name="Btn_Go"
+				searchtimeout="30000ms">
+					/dom[@domain='smartweb-ecms.tabsquare.com']//button[@innertext~'Go']/tag[@tagname='svg']
+				</item>
+				<item
+				capname="spantag"
+				id="bf39f96c-2f28-49bb-819d-2b4c950ac885"
+				name="CountryCodeArrow"
+				searchtimeout="30000ms">
+					/dom[@domain='smartweb-ecms.tabsquare.com']//span[@class='select2-selection__arrow']
+				</item>
+				<item
+				capname="inputtag"
+				id="ceaa45c5-cf30-461d-86aa-610cea81b078"
+				name="TextBox_CountrySearch"
+				searchtimeout="30000ms">
+					/dom[@domain='smartweb-ecms.tabsquare.com']//input[@type='search' and @class='select2-search__field']
+				</item>
+				<item
+				capname="litag"
+				id="21f06f2f-8025-40d8-a394-63f367f8df8a"
+				name="CountryCodeName"
+				searchtimeout="30000ms">
+					/dom[@domain='smartweb-ecms.tabsquare.com']//li[@innertext~$CountryCode]
+				</item>
+				<item
+				capname="inputtag"
+				id="7627d774-943c-4798-bf5b-01c2d31bfa2b"
+				name="TextBox_MobileNumber"
+				searchtimeout="30000ms">
+					/dom[@domain='smartweb-ecms.tabsquare.com']//input[@name='mobile_no']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="e4cd7b3a-f453-4c97-be44-061ff18300ad"
+			isrooted="False"
+			name="HomePage"
+			searchtimeout="0ms">
+				<item
+				capname="atag"
+				id="d0fec121-8449-46bc-864f-956bb06f19ba"
+				name="DineInButton"
+				searchtimeout="30000ms">
+					/dom[@domain='smartweb-ecms.tabsquare.com']//a[@innertext~'Dine In']
+				</item>
+				<item
+				capname="imgtag"
+				id="ef1d1fbf-357f-4132-a636-3201bc8176d7"
+				name="MainCourseLogo"
+				searchtimeout="30000ms">
+					/dom[@domain='smartweb-ecms.tabsquare.com']//img[@src='https://storage.googleapis.com/skipque3/others/1647509687-Store_tada_5376.jpeg']
+				</item>
+				<item
+				capname="spantag"
+				id="fb62acc9-9334-428b-926b-d8b7bf890832"
+				name="Item_RicePlate"
+				searchtimeout="30000ms">
+					/dom[@domain='smartweb-ecms.tabsquare.com']//span[@innertext='Rice Plate']
+				</item>
+				<item
+				capname="atag"
+				id="7aea1345-3137-4d5d-8711-7ec7890f8c2a"
+				name="Btn_AddRicePlate"
+				searchtimeout="30000ms">
+					/dom[@domain='smartweb-ecms.tabsquare.com']//span[@innertext='Rice Plate']/ancestor::li/.//a[@innertext='Add        ']
+				</item>
+				<folder
+				capname="divtag"
+				id="9fada421-58cf-4e6f-b639-638a716b3a8a"
+				isrooted="True"
+				name="AddItem__Popup"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					capname="atag"
+					id="f6af77e2-0d5f-44d4-b555-dc9159ee839a"
+					name="Btn_Add"
+					searchtimeout="30000ms">
+						/dom[@domain='smartweb-ecms.tabsquare.com']//div[@id='skuContainer']//a[@innertext~'Add ']
+					</item>
+					<basepath>
+						/dom[@domain='smartweb-ecms.tabsquare.com']//div[@id='skuContainer']
+					</basepath>
+				</folder>
+				<folder
+				capname="atag"
+				id="69a8f6e4-de80-475b-8359-fa0df09d9e8f"
+				isrooted="True"
+				name="CheckOutList"
+				searchtimeout="30000ms"
+				usecache="False">
+					<basepath>
+						/dom[@domain='smartweb-ecms.tabsquare.com']//a[#'checkoutButton']
+					</basepath>
+				</folder>
+				<folder
+				capname="ultag"
+				id="be469425-d681-4651-975e-3a97f93b5902"
+				isrooted="True"
+				name="ItemQuantity"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					capname="divtag"
+					id="e33e49c4-c0b9-4e1c-b39a-c7bca0b6b3c5"
+					name="Quantity"
+					searchtimeout="30000ms">
+						/dom[@domain='smartweb-ecms.tabsquare.com']//ul[@class='btn-dish add-action']//div[@innertext=$Quantity]
+					</item>
+					<item
+					capname="atag"
+					id="12a108c8-b1ca-4672-84de-2a9b04f994a2"
+					name="Quantity_PlusBtn"
+					searchtimeout="30000ms">
+						/dom[@domain='smartweb-ecms.tabsquare.com']//ul[@class='btn-dish add-action']//a[@class='to-plus btn-primary test']
+					</item>
+					<basepath>
+						/dom[@domain='smartweb-ecms.tabsquare.com']//ul[@class='btn-dish add-action']
+					</basepath>
+				</folder>
+			</folder>
+			<folder
+			capname="unknown"
+			id="14e605bd-261b-4f98-8c04-01616b961881"
+			isrooted="False"
+			name="OrderPage"
+			searchtimeout="0ms">
+				<folder
+				capname="ultag"
+				id="85215f90-d0e7-4d07-91af-bf7d7f15006e"
+				isrooted="True"
+				name="CartList"
+				searchtimeout="30000ms"
+				usecache="False">
+					<item
+					capname="atag"
+					id="fc264acb-37f8-4677-b4fa-f9ae14678dbf"
+					name="ItemRicePlace"
+					searchtimeout="30000ms">
+						/dom[@domain='smartweb-ecms.tabsquare.com']//ul[@class='cart-list']//a[@innertext~'Rice Plate']
+					</item>
+					<item
+					capname="divtag"
+					id="bcd2bdb8-c6c8-4534-ab88-410e60ebad8b"
+					name="Quantiy"
+					searchtimeout="30000ms">
+						/dom[@domain='smartweb-ecms.tabsquare.com']//ul[@class='cart-list']//div[@innertext=$Quantity]
+					</item>
+					<basepath>
+						/dom[@domain='smartweb-ecms.tabsquare.com']//ul[@class='cart-list']
+					</basepath>
+				</folder>
+				<item
+				capname="atag"
+				id="331ca896-19f4-417f-a3b3-f71bf5a6cf21"
+				name="Btn_PayByCash"
+				searchtimeout="30000ms">
+					/dom[@domain='smartweb-ecms.tabsquare.com']//a[@innertext~'Pay By Cash']
+				</item>
+				<item
+				capname="ptag"
+				id="b649fe1c-7114-40db-b687-5700af100ed6"
+				name="OrderMessage"
+				searchtimeout="30000ms">
+					/dom[@domain='smartweb-ecms.tabsquare.com']//p[@innertext='Your Order has been successfully sent to kitchen' and @visible='True']
+				</item>
+				<item
+				capname="tdtag"
+				id="2064fa39-c71b-45c9-879a-c5d2c050c908"
+				name="OrderID"
+				searchtimeout="30000ms">
+					/dom[@domain='smartweb-ecms.tabsquare.com']//td[@innertext~'Order ID']
+				</item>
+				<item
+				capname="divtag"
+				id="cee13007-6b2f-44b8-88bf-6d67d33c4ce0"
+				name="LoadingItem"
+				searchtimeout="30000ms">
+					/dom[@domain='smartweb-ecms.tabsquare.com']//div[@class='loading-scroll' and @visible='True']
+				</item>
+			</folder>
+			<basepath>
+				/dom[@domain='smartweb-ecms.tabsquare.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="e3a7c566-ae68-45f6-9339-2ea3013dde04"
+		name="CountryCode">
+			\+91
+		</var>
+		<var
+		id="e8f1f2b1-86e8-4e03-bf3c-c4fd8805ab7d"
+		name="Quantity">
+			3
+		</var>
+	</variables>
+</repository>

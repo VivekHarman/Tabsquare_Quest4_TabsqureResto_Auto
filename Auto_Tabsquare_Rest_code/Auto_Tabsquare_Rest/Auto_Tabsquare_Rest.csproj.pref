@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Auto_Tabsquare_Rest.rxtst" />
+    <Element value="SelectDish_PlaceOrder.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="Auto_Tabsquare_Rest.SelectDish.ValidateDishQuantity(Int32 Quantity)" />
+    </Array>
+  </Properties>
+</Properties>

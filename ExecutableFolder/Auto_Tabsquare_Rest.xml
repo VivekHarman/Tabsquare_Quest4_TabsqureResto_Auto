@@ -1,0 +1,603 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Auto_Tabsquare_Rest</name>
+    </assembly>
+    <members>
+        <member name="T:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepository">
+            <summary>
+            The class representing the Auto_Tabsquare_RestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Auto_Tabsquare_RestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepository.CountryCode">
+            <summary>
+            Gets or sets the value of variable CountryCode.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepository.Quantity">
+            <summary>
+            Gets or sets the value of variable Quantity.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.ApplicationUnderTestAppFolder.LoginPage">
+            <summary>
+            The LoginPage folder.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.ApplicationUnderTestAppFolder.HomePage">
+            <summary>
+            The HomePage folder.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.ApplicationUnderTestAppFolder.OrderPage">
+            <summary>
+            The OrderPage folder.
+            </summary>
+        </member>
+        <member name="T:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.LoginPageFolder">
+            <summary>
+            The LoginPageFolder folder.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.LoginPageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoginPage  folder.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.LoginPageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.LoginPageFolder.Btn_Go">
+            <summary>
+            The Btn_Go item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.LoginPageFolder.Btn_GoInfo">
+            <summary>
+            The Btn_Go item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.LoginPageFolder.CountryCodeArrow">
+            <summary>
+            The CountryCodeArrow item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.LoginPageFolder.CountryCodeArrowInfo">
+            <summary>
+            The CountryCodeArrow item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.LoginPageFolder.TextBox_CountrySearch">
+            <summary>
+            The TextBox_CountrySearch item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.LoginPageFolder.TextBox_CountrySearchInfo">
+            <summary>
+            The TextBox_CountrySearch item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.LoginPageFolder.CountryCodeName">
+            <summary>
+            The CountryCodeName item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.LoginPageFolder.CountryCodeNameInfo">
+            <summary>
+            The CountryCodeName item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.LoginPageFolder.TextBox_MobileNumber">
+            <summary>
+            The TextBox_MobileNumber item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.LoginPageFolder.TextBox_MobileNumberInfo">
+            <summary>
+            The TextBox_MobileNumber item info.
+            </summary>
+        </member>
+        <member name="T:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.HomePageFolder">
+            <summary>
+            The HomePageFolder folder.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.HomePageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HomePage  folder.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.HomePageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.HomePageFolder.DineInButton">
+            <summary>
+            The DineInButton item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.HomePageFolder.DineInButtonInfo">
+            <summary>
+            The DineInButton item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.HomePageFolder.MainCourseLogo">
+            <summary>
+            The MainCourseLogo item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.HomePageFolder.MainCourseLogoInfo">
+            <summary>
+            The MainCourseLogo item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.HomePageFolder.Item_RicePlate">
+            <summary>
+            The Item_RicePlate item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.HomePageFolder.Item_RicePlateInfo">
+            <summary>
+            The Item_RicePlate item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.HomePageFolder.Btn_AddRicePlate">
+            <summary>
+            The Btn_AddRicePlate item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.HomePageFolder.Btn_AddRicePlateInfo">
+            <summary>
+            The Btn_AddRicePlate item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.HomePageFolder.AddItem__Popup">
+            <summary>
+            The AddItem__Popup folder.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.HomePageFolder.CheckOutList">
+            <summary>
+            The CheckOutList folder.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.HomePageFolder.ItemQuantity">
+            <summary>
+            The ItemQuantity folder.
+            </summary>
+        </member>
+        <member name="T:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.AddItem__PopupFolder">
+            <summary>
+            The AddItem__PopupFolder folder.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.AddItem__PopupFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AddItem__Popup  folder.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.AddItem__PopupFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.AddItem__PopupFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.AddItem__PopupFolder.Btn_Add">
+            <summary>
+            The Btn_Add item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.AddItem__PopupFolder.Btn_AddInfo">
+            <summary>
+            The Btn_Add item info.
+            </summary>
+        </member>
+        <member name="T:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.CheckOutListFolder">
+            <summary>
+            The CheckOutListFolder folder.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.CheckOutListFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CheckOutList  folder.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.CheckOutListFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.CheckOutListFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.ItemQuantityFolder">
+            <summary>
+            The ItemQuantityFolder folder.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.ItemQuantityFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ItemQuantity  folder.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.ItemQuantityFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.ItemQuantityFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.ItemQuantityFolder.Quantity">
+            <summary>
+            The Quantity item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.ItemQuantityFolder.QuantityInfo">
+            <summary>
+            The Quantity item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.ItemQuantityFolder.Quantity_PlusBtn">
+            <summary>
+            The Quantity_PlusBtn item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.ItemQuantityFolder.Quantity_PlusBtnInfo">
+            <summary>
+            The Quantity_PlusBtn item info.
+            </summary>
+        </member>
+        <member name="T:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.OrderPageFolder">
+            <summary>
+            The OrderPageFolder folder.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.OrderPageFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new OrderPage  folder.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.OrderPageFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.OrderPageFolder.Btn_PayByCash">
+            <summary>
+            The Btn_PayByCash item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.OrderPageFolder.Btn_PayByCashInfo">
+            <summary>
+            The Btn_PayByCash item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.OrderPageFolder.OrderMessage">
+            <summary>
+            The OrderMessage item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.OrderPageFolder.OrderMessageInfo">
+            <summary>
+            The OrderMessage item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.OrderPageFolder.OrderID">
+            <summary>
+            The OrderID item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.OrderPageFolder.OrderIDInfo">
+            <summary>
+            The OrderID item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.OrderPageFolder.LoadingItem">
+            <summary>
+            The LoadingItem item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.OrderPageFolder.LoadingItemInfo">
+            <summary>
+            The LoadingItem item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.OrderPageFolder.CartList">
+            <summary>
+            The CartList folder.
+            </summary>
+        </member>
+        <member name="T:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.CartListFolder">
+            <summary>
+            The CartListFolder folder.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.CartListFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new CartList  folder.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.CartListFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.CartListFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.CartListFolder.ItemRicePlace">
+            <summary>
+            The ItemRicePlace item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.CartListFolder.ItemRicePlaceInfo">
+            <summary>
+            The ItemRicePlace item info.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.CartListFolder.Quantiy">
+            <summary>
+            The Quantiy item.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Auto_Tabsquare_RestRepositoryFolders.CartListFolder.QuantiyInfo">
+            <summary>
+            The Quantiy item info.
+            </summary>
+        </member>
+        <member name="T:Auto_Tabsquare_Rest.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Auto_Tabsquare_Rest.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the Auto_Tabsquare_RestRepository repository.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Auto_Tabsquare_Rest.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Auto_Tabsquare_Rest.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Auto_Tabsquare_Rest.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the Auto_Tabsquare_RestRepository repository.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.OpenBrowser.BrowserURL">
+            <summary>
+            Gets or sets the value of variable BrowserURL.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Auto_Tabsquare_Rest.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Auto_Tabsquare_Rest.Login">
+             <summary>
+            The Login recording.
+             </summary>
+        </member>
+        <member name="F:Auto_Tabsquare_Rest.Login.repo">
+            <summary>
+            Holds an instance of the Auto_Tabsquare_RestRepository repository.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.Login.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Login.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Login.MobileNumber">
+            <summary>
+            Gets or sets the value of variable MobileNumber.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.Login.CountryCode">
+            <summary>
+            Gets or sets the value of variable CountryCode.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.Login.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Auto_Tabsquare_Rest.Login.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.Login.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.Login.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Auto_Tabsquare_Rest.SelectDish_PlaceOrder">
+             <summary>
+            The SelectDish_PlaceOrder recording.
+             </summary>
+        </member>
+        <member name="F:Auto_Tabsquare_Rest.SelectDish_PlaceOrder.repo">
+            <summary>
+            Holds an instance of the Auto_Tabsquare_RestRepository repository.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.SelectDish_PlaceOrder.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.SelectDish_PlaceOrder.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.SelectDish_PlaceOrder.ItemQuantity">
+            <summary>
+            Gets or sets the value of variable ItemQuantity.
+            </summary>
+        </member>
+        <member name="P:Auto_Tabsquare_Rest.SelectDish_PlaceOrder.Quantity">
+            <summary>
+            Gets or sets the value of variable Quantity.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.SelectDish_PlaceOrder.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Auto_Tabsquare_Rest.SelectDish_PlaceOrder.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.SelectDish_PlaceOrder.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Auto_Tabsquare_Rest.SelectDish_PlaceOrder.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

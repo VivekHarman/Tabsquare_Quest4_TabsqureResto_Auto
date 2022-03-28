@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Auto_Tabsquare_Rest"
+      id="f4f13dd2-e51e-4252-8d25-bdad9f8c19ae"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Auto_Tabsquare_Rest"
+      id="f4f13dd2-e51e-4252-8d25-bdad9f8c19ae"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
